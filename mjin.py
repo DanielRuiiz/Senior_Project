@@ -35,8 +35,8 @@ def run_game(width=700, height=700):
     startmenu = Menu(menubar, tearoff=0)
     exitmenu = Menu(menubar, tearoff=0)
 
-    startmenu.add_command(label="Online", command=connect)
-    startmenu.add_command(label="LAN", command=ai)
+    startmenu.add_command(label="Online Reg", command=connect)
+    startmenu.add_command(label="AI Reg", command=ai)
     menubar.add_cascade(label="Play", menu=startmenu)
 
     exitmenu.add_command(label="Exit", command=root.quit)
